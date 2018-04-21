@@ -2,8 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-line',
-  templateUrl: './line.component.html',
-  styleUrls: ['./line.component.css']
+  templateUrl: './line.component.html'
 })
 export class LineComponent {
   public lineChartData: Array<any> = [
@@ -67,5 +66,5 @@ export class LineComponent {
   public chartHovered(e: any): void {
     console.log(e);
   }
-  
+
 }

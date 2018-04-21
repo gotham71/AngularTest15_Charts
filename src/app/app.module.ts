@@ -8,12 +8,18 @@ import { ChartsModule } from 'ng2-charts';
 
 import { AppComponent } from './app.component';
 import { LineComponent } from './components/line/line.component';
+import { BarComponent } from './components/bar/bar.component';
+import { DoughnutComponent } from './components/doughnut/doughnut.component';
+import { RadarComponent } from './components/radar/radar.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    LineComponent
+    LineComponent,
+    BarComponent,
+    DoughnutComponent,
+    RadarComponent
   ],
   imports: [
     BrowserModule,
