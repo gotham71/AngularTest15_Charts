@@ -2,15 +2,22 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 
+// Charts
+import { ChartsModule } from 'ng2-charts';
+
+
 import { AppComponent } from './app.component';
+import { LineComponent } from './components/line/line.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LineComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    ChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
